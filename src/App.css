@@ -1,13 +1,21 @@
-.App {
+body, html {
+  background-image: url(./images/bg.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  background-attachment: fixed;
+}
+.main{
+ margin: 8% auto;
+}
+.App
+ {
   text-align: center;
+  color: #fff;
+ 
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -30,4 +38,226 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-control,
+.form-control:focus,
+.input-group-addon {
+  border-color: #e1e1e1;
+}
+.form-control,
+.btn {
+  border-radius: 3px;
+}
+.signup-form {
+  width: 390px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.signup-form form {
+  color: #999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background: #fff;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  padding: 30px;
+  background-color:#CA763E;
+}
+.signup-form h2 {
+  color: #333;
+  font-weight: bold;
+  margin-top: 0;
+}
+.signup-form hr {
+  margin: 0 -30px 20px;
+}
+.signup-form .form-group {
+  margin-bottom: 20px;
+}
+.signup-form label {
+  font-weight: normal;
+  font-size: 13px;
+}
+.signup-form .form-control {
+  min-height: 38px;
+  box-shadow: none !important;
+}
+.signup-form .input-group-addon {
+  max-width: 42px;
+  text-align: center;
+}
+.signup-form input[type="checkbox"] {
+  margin-top: 2px;
+}
+.signup-form .btn {
+  font-size: 16px;
+  font-weight: bold;
+  background: #5F2606;
+  border: none;
+  min-width: 140px;
+}
+.signup-form .btn:hover,
+.signup-form .btn:focus {
+  background: #F9C24E;
+  outline: none;
+}
+.signup-form a {
+  color: #fff;
+  text-decoration: underline;
+}
+.signup-form a:hover {
+  text-decoration: none;
+}
+.signup-form form a {
+  color: #19aa8d;
+  text-decoration: none;
+}
+.signup-form form a:hover {
+  text-decoration: underline;
+}
+.signup-form .fa {
+  font-size: 21px;
+}
+.signup-form .fa-paper-plane {
+  font-size: 18px;
+}
+.signup-form .fa-check {
+  color: #fff;
+  left: 17px;
+  top: 18px;
+  font-size: 7px;
+  position: absolute;
+}
+
+.container {
+  height: 100%;
+  align-content: center;
+}
+
+.card {
+  height: 370px;
+  margin-top: 10%;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  padding: 30px;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #ffc312;
+}
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: white;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #ffc312;
+  color: black;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: black;
+  background-color: #ffc312;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
+}
+.nav{
+  height: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.navContent{
+  right: 0;
+  position: absolute;
+}
+.addInput{
+ width:100px;
+}
+.addBtn{
+  /* float: right; */
+}
+.checkbox{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right:10px; 
+}
+.taskName{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  
+}
+.alert-info {
+  width: 80%;
+  margin: auto;
+}
+.addForm{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.controlBtns{
+/* margin-right: 5px; */
+/* float: right; */
+}
+.controlBtns {
+  /* float: right; */
+  /* position: relative; */
+}
+.underline{
+  text-decoration: line-through;
+}
+
+.alert-info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  background-color: rgba(0, 0, 0, 0.7) !important;
 }
